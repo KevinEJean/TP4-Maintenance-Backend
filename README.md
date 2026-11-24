@@ -1,5 +1,7 @@
 # incidents-labo-api — Backend
 
+![Build](https://github.com/KevinEJean/TP4-Maintenance-Backend/actions/workflows/pipeline-ci.yml/badge.svg)
+
 API REST de signalement et de suivi des incidents sur les postes informatiques des locaux du Cégep.
 
 ## Démarrer le projet
