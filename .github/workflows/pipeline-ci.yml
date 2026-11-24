@@ -40,6 +40,14 @@ jobs:
           if-no-files-found: error
           retention-days: 7
 
+      - name: Upload jacoco
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-jacoco
+          path: target/site/jacoco/index.html
+          if-no-files-found: error
+          retention-days: 7
+
   build-and-push-image:
     needs: build-and-test
     runs-on: ubuntu-latest
